@@ -75,8 +75,15 @@ document.addEventListener('DOMContentLoaded', function(){
                 taskElement.appendChild(addAbsenceButton);
                 taskElement.appendChild(editButton);
                 taskElement.appendChild(deleteButton);
+                taskElement.style.zIndex = index;
                 faltasLista.appendChild(taskElement);
+                console.log(index);
+                if (parseInt(index) >= parseInt(tasks.length) - 1){
+                    taskElement.classList.add("animation-class");
+                    console.log(tasks)
+                }
             })
+            
         }
     }
 
