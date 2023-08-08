@@ -16,7 +16,7 @@ O FaltApp é uma aplicação web simples para ajudar os estudantes a gerenciar s
 
 ```bash
 git clone https://github.com/fabriciolopss/FaltApp.git
-
+bash
 Navegue até o diretório do projeto:
 
 cd FaltApp
