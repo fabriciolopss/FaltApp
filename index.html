@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto faltas</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header id = "header">
+        <h1>FaltApp</h1>
+        <nav id = "header-options">
+            <ul id = "header-ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id = "main-wrapper">
+            <div id = "add-task">
+                <div class = "input-container">
+                    <input required="required" id = "subject-name" type = "text">
+                    <label for = "input" class = "label">Nome da matéria:</label>
+                    <div class = "underline"></div>
+                </div>
+                <select id="menu">
+                    <option value="opcao1">Numero de horas:</option>
+                    <option value="30">30 horas</option>
+                    <option value="45">45 horas</option>
+                    <option value="60">60 horas</option>
+                    <option value="75">75 horas</option>
+                    <option value="90">90 horas</option>
+                    <option value="120">120 horas</option>
+                </select>
+                <div id = "submit-button">
+                    <p id = "button-text">Adicionar</p>
+                    <ion-icon name="add-outline" id = "add-button"></ion-icon>
+                </div>
+                
+            </div>
+
+            <div id = "task-list">
+
+            </div>
+        </div>
+
+    </main>
+    </header>
+    <div class="container">
+
+    </div>
+    <script src="scripts/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

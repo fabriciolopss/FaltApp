@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:#022B3A;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height:8vh;
+    background-color: #E5D1D0;
+}
+
+#header-ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style:none;
+}
+
+#header-ul li{
+    margin:10px;
+    list-style-type: none;
+    text-transform:uppercase;
+}
+
+#header-ul li a {
+    text-decoration: none;
+}
+
+main{
+    height:92vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+#main-wrapper{
+    width:80vw;
+    height:80vh;
+    border-radius: 30px;
+    background: #E5D1D0;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    border-radius:15px;
+}
+
+
+.input-container {
+    position: relative;
+    margin-left:10px;
+  }
+  
+  .input-container input[type="text"] {
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px 0;
+    background-color: transparent;
+    outline: none;
+  }
+  
+  .input-container .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ccc;
+    transition: all 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .input-container input[type="text"]:focus ~ .label,
+  .input-container input[type="text"]:valid ~ .label {
+    top: -20px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .input-container .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #333;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+  }
+  
+  .input-container input[type="text"]:focus ~ .underline,
+  .input-container input[type="text"]:valid ~ .underline {
+    transform: scaleX(1);
+  }
+  
+
+#menu{
+    margin-left:10px;
+    padding-left: 5px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #ccc;
+    background-color: #73877B;
+    color: #ccc;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    padding:8px;
+    transition:1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+#menu:focus{
+    border-color:#333;
+}
+
+#add-button{
+    transform:rotate(0deg);
+    transition:1s;
+}
+
+#button-text:hover ~ #add-button{ 
+    transform:rotate(359deg);
+    transition:1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#submit-button{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 16px;
+    border:none;
+    background-color:#73877B;
+    cursor:pointer;
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    border:1px solid #ccc;
+    color:#ccc;
+    border-right:0px;
+    border-top: 0px;
+    border-left:0px;
+    padding-top:7.1px;
+    padding-bottom:7.1px;
+    margin-right:10px;
+    transition:1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#submit-button:hover{
+    border-color:#333;
+}
+
+#add-task{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width:100%;
+    height:10%;
+    background-color:#73877B;
+}
+
+.task{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin-top:20px;
+    background-color: #022B3A;
+    color: #ccc;
+    height:5vh;
+}
+
+.task span{
+    width:30%;
+    margin-left:10px;
+    text-transform: capitalize;
+}
+
+.task button{
+    margin-right:10px;
+    width: 15%;
+}
+
+#task-list{
+    overflow-y: auto;
+}
+
+
+
+
