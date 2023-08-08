@@ -23,7 +23,7 @@ cd FaltApp
 
 Abra o arquivo index.html em um navegador da web para começar a usar o aplicativo.
 
-##Personalização
+## Personalização
 Você pode personalizar o aplicativo de acordo com suas necessidades. Alguns possíveis aprimoramentos e personalizações incluem:
 
 -Melhorar o design da interface do usuário usando CSS.
@@ -40,7 +40,7 @@ Você pode personalizar o aplicativo de acordo com suas necessidades. Alguns pos
 5.Envie suas alterações para o seu fork: git push origin sua-branch.
 6.Crie um pull request neste repositório original.
 
-##Licença
+## Licença
 Este projeto está licenciado sob a Licença MIT.
 
 Desenvolvido por Fabricio Lopes
