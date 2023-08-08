@@ -35,19 +35,19 @@ Você pode personalizar o aplicativo de acordo com suas necessidades. Alguns pos
 -Implementar uma funcionalidade de filtro ou pesquisa para facilitar a localização de tarefas.
 
 ## Contribuição
--Contribuições são bem-vindas! Se você quiser contribuir para este projeto, siga estas etapas:
+Contribuições são bem-vindas! Se você quiser contribuir para este projeto, siga estas etapas:
 
-1.Crie um fork deste repositório.
+1. Crie um fork deste repositório.
 
-2.Clone o fork para sua máquina local.
+2. Clone o fork para sua máquina local.
 
-3.Crie uma nova branch para suas alterações: git checkout -b sua-branch.
+3. Crie uma nova branch para suas alterações: git checkout -b sua-branch.
 
-4.Faça suas modificações e commits: git commit -am 'Descrição das modificações'.
+4. Faça suas modificações e commits: git commit -am 'Descrição das modificações'.
 
-5.Envie suas alterações para o seu fork: git push origin sua-branch.
+5. Envie suas alterações para o seu fork: git push origin sua-branch.
 
-6.Crie um pull request neste repositório original.
+6. Crie um pull request neste repositório original.
 
 ## Licença
 Este projeto está licenciado sob a Licença MIT.
