@@ -27,17 +27,26 @@ cd FaltApp
 Você pode personalizar o aplicativo de acordo com suas necessidades. Alguns possíveis aprimoramentos e personalizações incluem:
 
 -Melhorar o design da interface do usuário usando CSS.
+
 -Adicionar funcionalidades extras, como a possibilidade de definir metas de faltas por matéria.
+
 -Integrar com um sistema de autenticação para permitir que cada usuário tenha seu próprio conjunto de tarefas e contadores.
+
 -Implementar uma funcionalidade de filtro ou pesquisa para facilitar a localização de tarefas.
--Contribuição
+
+## Contribuição
 -Contribuições são bem-vindas! Se você quiser contribuir para este projeto, siga estas etapas:
 
 1.Crie um fork deste repositório.
+
 2.Clone o fork para sua máquina local.
+
 3.Crie uma nova branch para suas alterações: git checkout -b sua-branch.
+
 4.Faça suas modificações e commits: git commit -am 'Descrição das modificações'.
+
 5.Envie suas alterações para o seu fork: git push origin sua-branch.
+
 6.Crie um pull request neste repositório original.
 
 ## Licença
